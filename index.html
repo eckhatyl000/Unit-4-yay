@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Back End Assessment</title>
+</head>
+
+<body class="container">
+  <button id="complimentButton">Get a compliment</button>
+  <button id="fortune-button">Get a fortune</button>
+  <button id="user-submit">Submit your information</button>
+
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <button type="submit">Add User</button>
+  </form>
+  
+  <h2>Update User</h2>
+  <form id="update-user-form">
+    <label for="update-name">Name:</label>
+    <input type="text" id="update-name" name="name">
+  
+    <label for="update-email">Email:</label>
+    <input type="email" id="update-email" name="email">
+  
+    <input type="hidden" id="update-id" name="id">
+  
+    <button type="submit">Update User</button>
+  </form>
+
+  <h2>Delete User</h2>
+  <form id="delete-user-form">
+    <label for="delete-id">ID:</label>
+    <input type="text" id="delete-id" name="id">
+  
+    <button type="submit">Delete User</button>
+  </form>
+  
+  <h2>Create Resource</h2>
+  <form id="create-resource-form">
+    <label for="resource-name">Resource Name:</label>
+    <input type="text" id="resource-name" name="name">
+  
+    <button type="submit">Create Resource</button>
+  </form>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
