@@ -1,3 +1,5 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 const complimentBtn = document.getElementById("complimentButton")
 
 const getCompliment = () => {
